@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Navigation */
+body
+{
+	padding-left:1%;	
+	padding-right:1%;
+
+	text-align: center;
+}
+li
+{
+	
+	text-align:left;
+	font-size: 25px;
+	
+		
+}
+
+img.headerimg
+{
+	width:220px;
+	height:150px;
+	margin:-10px;
+}
+footer.footermain
+{
+	
+	width:100%;
+}
+div.footertext
+{
+	width:100%;
+	text-align:center;
+	border:5px;
+	background-color:#316571;
+	color:white;
+
+}
+p.footerpara
+{
+	
+	margin:5px;
+	text-align: center;
+}
+
+p
+{
+	
+	text-align:left;
+	font-size: 30px;
+}
+h1.MAINHEADER
+{
+text-align:center;
+	WIDTH:99%;
+	HEIGHT:20%;
+	BORDER:2PX SOLID #31656e;
+	background-color: #4896aa;
+	PADDING:2%;
+	background-repeat:repeat-x;
+	background-repeat:repeat-y;
+	background-position:center;
+	color:white;
+	font-size:50px;
+	font-family: "Courier New", Courier, serif;
+	font-weight: bold;
+}
+
+h1
+{
+	text-align: center;
+}
+table.admissionpage
+{
+ 	border:3px ridge #31656e;
+ 	width:100%;
+ 	height:600px;
+ 	background:#be7c3f;
+}
+td.admissionpage
+{
+	border:1px ridge #31656e;
+	width:50%;
+	height:300px;
+}
+
+label.activitieslabel
+{
+	margin:30px;
+	font-size:25px;
+}
+table.activities
+{
+	
+	border:1px ridge red;
+	width:100%;
+	height:600px;
+	text-align:center;
+}
+td.activities
+{
+	border:1px ridge red;
+	width:50%;
+	height:300px
+}
+img.activities
+{
+	
+	width:100%;height:300px;
+}
+img.header_img
+{width:220px;height:150px;margin:-10px;}
+
+img.slider
+{
+	width:99%;
+	height:7%;
+
+}
+.navbar
+{
+	
+}
+.navbar-default {
+  background-color: #4896aa;
+  border-color: #346f7e;
+	width:99%;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #4896aa;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ffffff;
+  background-color: #346f7e;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #346f7e;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  background-color: #346f7e;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #346f7e;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #346f7e;
+}
+.navbar-default .navbar-toggle {
+  border-color: #346f7e;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #346f7e;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width:649px){
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #346f7e;
+  }
+.navbar-header .navbar-toggle.collapsed .glyphicon.glyphicon-chevron-down {
+}
+.navbar-header .navbar-toggle.collapsed .glyphicon.glyphicon-chevron-down {
+}
+.navbar-header .navbar-toggle {
+	color: #ffffff;
+}
+
+.navbar-header .navbar-toggle.collapsed .glyphicon.glyphicon-chevron-down {
+}
+
+
+
+}
+
+
+
+/* Design */
+
+h1
+{
+	width:100%;
+	text-align:center;
+	font-size:40px;
+	color: #715031;
+	font-family: "Arial", Arial, serif;
+	font-weight: bold;
+}
+h2
+{
+	width:100%;
+	text-align:left;
+	
+}
+/* Content */
